@@ -14,7 +14,7 @@ function App() {
     <div className='App'>
       <Header />
       <Routes>
-      <Route  path='/' element={< Test />}></Route>
+      <Route  path='/tempMusicPlayer' element={< Test />}></Route>
       </Routes>
     </div>
   );
