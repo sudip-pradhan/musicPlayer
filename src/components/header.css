@@ -1,0 +1,12 @@
+.appbar {
+    border-radius: 4px;
+}
+
+.header-container{
+    padding: 5px 5px 5px 5px;
+}
+
+.outbutton {
+    color: var(--purple);
+    background-color: red;
+}

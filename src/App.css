@@ -1,0 +1,5 @@
+.App {
+  overflow: hidden;
+  min-height:100vh;
+  background-color: var(--purple);
+}
