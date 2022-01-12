@@ -23,6 +23,7 @@ const Header = observer( () => {
           onClick={()=>{
             console.log(stores.headerStore.flag,'af')
             stores.headerStore.togleFlag()
+            stores.headerStore.getAuthToken()
           }}>
           <Menu />
         </IconButton>
