@@ -1,22 +1,29 @@
 import React from 'react';
 import './App.css';
-import { Button } from '@mui/material';
+import { Button, Grid } from '@mui/material';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import Header from './components/header';
+import Header from './components/header/header';
 import Sidebar from './components/sidebar';
-import Test from './pages/test';
+import YTPlaylist from './pages/YTPlaylist/YTPlaylsit';
+import Body from './components/body/body';
 
 function App() {
-  
-  let navigate= useNavigate();
-  
+
+  let navigate = useNavigate();
+
   return (
-    <div className='App'>
-      <Header />
-      <Routes>
-      <Route  path='/tempMusicPlayer' element={< Test />}></Route>
-      </Routes>
-    </div>
+    <Grid container spacing={3} direction='column' className='App'>
+      <Grid item xs={12}>
+        <Header />
+      </Grid>
+
+      <Grid item xs={12}>
+        <Routes>
+          <Route path="/" element={< YTPlaylist />} />
+          <Route path='/tempMusicPlayer' element={< YTPlaylist />} />
+        </Routes>
+      </Grid>
+    </Grid>
   );
 }
 

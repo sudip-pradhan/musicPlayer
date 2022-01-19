@@ -1,5 +1,5 @@
 .App {
   overflow: hidden;
-  min-height:100vh;
   background-color: var(--purple);
+  padding: 10px 10px 15px 10px;
 }

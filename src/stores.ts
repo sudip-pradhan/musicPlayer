@@ -1,8 +1,9 @@
 import HeaderStore from "./stores/HeaderStore";
-import { makeAutoObservable } from 'mobx'
+import YTPlaylistStore from "./stores/YTPlaylistStore";
 
 class Store {
-    headerStore= new HeaderStore()
+    headerStore = new HeaderStore()
+    ytPlaylistStore = new YTPlaylistStore()
 }
 
 const store = new Store()

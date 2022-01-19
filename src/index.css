@@ -14,9 +14,8 @@ code {
 }
 
 :root {
-  --primary-color: #7FFFD4;
   --complementary-color: #ff947f;
-  --blue: #7faaff;
+  --blue: cyan;
   --green: #94ff7f;
   --purple: #aa7fff;
 }
